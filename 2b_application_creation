@@ -1,0 +1,6 @@
+Python 3.12.4 (tags/v3.12.4:8e8a8ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from EmotionDetection.emotion_detection import emotion_detector
+>>> emotion_detector('I am glad this happened')
+'{"emotionPredictions": [{"emotion": {"anger": 0.01, "disgust": 0.02, "fear": 0.005, "joy": 0.97, "sadness": 0.01}}]}'
+>>> 
